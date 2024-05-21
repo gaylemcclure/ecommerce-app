@@ -6,11 +6,9 @@
 This app is the back-end of an eCommerce website that allows you to access the data of Categories, Products and Tags. Freely manipulate the data via the ability to get single requests, get all requests, create new items, update items and delete items. 
 
 Video walkthrough:
-[![alt text](assets/video-sg.png)](https://www.loom.com/share/815f5b18f4054659b28f638f498c410f?sid=27fd26c7-48fd-4cab-94c2-dd76ec4b1ac7)
+[![alt text](assets/insomnia1.png)](https://www.loom.com/share/ae637328365c43bc836597f92e8c63d9?sid=51d7ac87-c9e5-4e69-9804-05b03db4cce3)
+[![alt text](assets/insomnia2.png)](https://www.loom.com/share/58dcbb20bdea4747a92aee8980ae5b38?sid=161c986e-e55d-4acf-b207-3dc96dd58002)
 
-Screenshots
-![screenshot](/assets/cms.png)
-![screenshot](/assets/cms-2.png)
 
   ## TABLE OF CONTENTS
   
@@ -25,36 +23,44 @@ Screenshots
   
   ## INSTALLATION
 To clone from Github, use GitBash   
-```git@github.com:gaylemcclure/employee-cms.git```
+```git@github.com:gaylemcclure/ecommerce-app.git```
   
   ## USAGE
-  Upon installation of the project, start the generator using the terminal with the command   
-  ```node index.js```
-  This will then bring up the list of options available to you.   
-  Select your required option to view or alter data as necessary, then select EXIT to stop.  
-  The options available are: 
-- View all departments
-- View all roles
-- View all employees
-- View employees by manager
-- View employees by department
-- View total budget by department
-- Add a department
-- Add a role
-- Add an employee
-- Update employee role
-- Update employee manager
-- Delete department
-- Delete role
-- Delete employee
+  Upon installation of the project, start the app using the terminal with the following commands:   
+  ```npm i```
+  ```node ./seeds/index.js```
+  ```node server.js```
+Using insomnia, you are able to complete the following options:
 
+Category:
+ - Find all
+ - Find one
+ - Update via id
+ - Create new
+ - Delete via id
+
+Tag:
+ - Find all
+ - Find one
+ - Update via id
+ - Create new
+ - Delete via id
+
+ Product:
+ - Find all
+ - Find one
+ - Update via id
+ - Create new
+ - Delete via id
+
+ 
   
   ## LICENCE
   Distributed under the MIT license. For more information, see <a href=https://opensource.org/licenses/MIT>here</a>
   
   ## CONTRIBUTIONS
   Created by Gayle McClure   
-  Uses JavaScript, node.js, postgres db
+  Uses JavaScript, node.js, postgres db, express
   
   
   ## QUESTIONS
